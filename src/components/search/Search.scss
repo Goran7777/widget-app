@@ -1,0 +1,59 @@
+.container {
+    text-align: center;
+    margin-top: 5rem;
+    &-field__label {
+        display: block;
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+    &-field__input {
+        height: 3.5rem;
+        width: 35rem;
+        font-size: 2.5rem;
+    }
+}
+
+.item {
+    margin-top: 1rem;
+    &__title {
+        font-weight: 900;
+    }
+    &__snippet {
+        margin: 1rem 10rem;
+    }
+    &__button {
+        float: right;
+        margin-right: 4rem;
+        font-size: 2.5rem;
+        border: none;
+        padding: 0.5rem;
+        &--link {
+            color: black;
+            &:visited {
+                border-radius: 0.5rem;
+                padding: 0.5rem;
+                text-decoration: none;
+                color: black;
+            }
+            &:link {
+                border-radius: 0.5rem;
+                padding: 0.5rem;
+                text-decoration: none;
+                color: black;
+            }
+            &:hover {
+                border-radius: 0.5rem;
+                padding: 0.5rem;
+                text-decoration: none;
+                color: black;
+                background: rgb(180, 169, 169);
+            }
+            &:active {
+                border-radius: 0.5rem;
+                padding: 0.5rem;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

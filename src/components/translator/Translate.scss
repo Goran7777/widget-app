@@ -1,0 +1,18 @@
+.translate {
+    text-align: center;
+    &-input {
+        height: 4rem;
+        margin-top: 1rem;
+        width: 40rem;
+        border-radius: 0.5rem;
+        font-size: 3rem;
+    }
+    &-label {
+        display: block;
+        margin: 0.5rem 0;
+        font-size: 3rem;
+    }
+    &-header {
+        font-size: 3rem;
+    }
+}

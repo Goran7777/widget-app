@@ -1,0 +1,22 @@
+.container {
+    &-ul {
+        list-style: none;
+        display: flex;
+        list-style-type: none;
+        &--li {
+            text-transform: uppercase;
+            margin-right: 2rem;
+            &:first-child {
+                margin-left: 2rem;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+}
